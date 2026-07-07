@@ -1,38 +1,15 @@
+:host {
+    display: block;
+    height: 100%;
+}
+
 html,
 body {
-
     height: 100%;
-
     margin: 0;
+}
 
-    padding: 0;
-
+body {
     font-family: Roboto, Arial, sans-serif;
-
-    overflow: hidden;
-
-    background: #F5F7FA;
-
-}
-
-* {
-
-    box-sizing: border-box;
-
-}
-
-::-webkit-scrollbar {
-
-    width: 8px;
-
-    height: 8px;
-
-}
-
-::-webkit-scrollbar-thumb {
-
-    background: #C1C1C1;
-
-    border-radius: 10px;
-
+    background: #f5f7fa;
 }

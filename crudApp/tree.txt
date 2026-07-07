@@ -12,7 +12,6 @@ src/app/app.component.html
 src/app/app.component.scss
 src/app/app.component.spec.ts
 src/app/app.component.ts
-src/app/app.module.ts
 src/app/core/guards/admin.guard.ts
 src/app/core/guards/auth.guard.ts
 src/app/core/guards/customer.guard.ts
@@ -145,6 +144,7 @@ src/app/shared/components/page-not-found/page-not-found.component.html
 src/app/shared/components/page-not-found/page-not-found.component.scss
 src/app/shared/components/page-not-found/page-not-found.component.spec.ts
 src/app/shared/components/page-not-found/page-not-found.component.ts
+src/app/shared/material/material.module.ts
 src/assets/.gitkeep
 src/environments/environment.prod.ts
 src/environments/environment.ts
