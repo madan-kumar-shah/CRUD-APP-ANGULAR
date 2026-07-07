@@ -1,0 +1,77 @@
+.header {
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+
+    background: white;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+
+    height: 64px;
+
+}
+
+.logo {
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+    color: #1565C0;
+
+    margin-left: 20px;
+
+}
+
+.spacer {
+
+    flex: 1;
+
+}
+
+.search {
+
+    width: 320px;
+
+    margin-right: 20px;
+
+}
+
+.search ::ng-deep .mat-mdc-form-field-subscript-wrapper {
+
+    display: none;
+
+}
+
+button {
+
+    margin-left: 5px;
+
+}
+
+.dark-theme {
+
+    background: #1E1E1E;
+
+    color: white;
+
+}
+
+@media(max-width:768px) {
+
+    .search {
+
+        display: none;
+
+    }
+
+    .logo {
+
+        font-size: 18px;
+
+    }
+
+}

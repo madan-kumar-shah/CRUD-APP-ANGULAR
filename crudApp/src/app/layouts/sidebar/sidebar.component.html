@@ -1,1 +1,21 @@
-<p>sidebar works!</p>
+<nav class="sidebar" [class.collapsed]="collapsed()">
+
+    <mat-nav-list>
+
+        @for (item of menu(); track item.id) {
+
+        <a mat-list-item [routerLink]="item.route" routerLinkActive="active">
+
+            <mat-icon>{{ item.icon }}</mat-icon>
+
+            @if (!collapsed()) {
+            <span>{{ item.title }}</span>
+            }
+
+        </a>
+
+        }
+
+    </mat-nav-list>
+
+</nav>

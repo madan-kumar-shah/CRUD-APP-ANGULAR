@@ -10,4 +10,8 @@ import { CommonModule } from '@angular/common';
 })
 export class FooterComponent {
 
+  readonly currentYear = new Date().getFullYear();
+
+  readonly version = '1.0.0';
+
 }

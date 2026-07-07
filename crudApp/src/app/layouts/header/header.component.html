@@ -1,1 +1,103 @@
-<p>header works!</p>
+<mat-toolbar class="header">
+
+    <button mat-icon-button (click)="toggleSidebar()">
+
+        <mat-icon>menu</mat-icon>
+
+    </button>
+
+    <div class="logo">
+
+        Enterprise Commerce
+
+    </div>
+
+    <span class="spacer"></span>
+
+    <mat-form-field appearance="outline" class="search">
+
+        <input matInput placeholder="Search products, customers...">
+
+    </mat-form-field>
+
+    <button mat-icon-button>
+
+        <mat-icon matBadge="12" matBadgeColor="warn">
+
+            notifications
+
+        </mat-icon>
+
+    </button>
+
+    <button mat-icon-button (click)="toggleFullScreen()">
+
+        <mat-icon>
+
+            fullscreen
+
+        </mat-icon>
+
+    </button>
+
+    <button mat-icon-button (click)="toggleTheme()">
+
+        <mat-icon>
+
+            dark_mode
+
+        </mat-icon>
+
+    </button>
+
+    <button mat-icon-button [matMenuTriggerFor]="profileMenu">
+
+        <mat-icon>
+
+            account_circle
+
+        </mat-icon>
+
+    </button>
+
+</mat-toolbar>
+
+<mat-menu #profileMenu="matMenu">
+
+    <button mat-menu-item>
+
+        <mat-icon>
+
+            person
+
+        </mat-icon>
+
+        My Profile
+
+    </button>
+
+    <button mat-menu-item>
+
+        <mat-icon>
+
+            settings
+
+        </mat-icon>
+
+        Settings
+
+    </button>
+
+    <button mat-menu-item (click)="logout()">
+
+        <mat-icon>
+
+            logout
+
+        </mat-icon>
+
+        Logout
+
+    </button>
+
+</mat-menu>

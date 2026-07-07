@@ -1,0 +1,77 @@
+.sidebar {
+
+    position: fixed;
+
+    left: 0;
+
+    top: 64px;
+
+    bottom: 50px;
+
+    width: 260px;
+
+    transition: all .25s ease;
+
+    overflow: hidden;
+
+    background: #0F172A;
+
+    z-index: 998;
+
+}
+
+.sidebar.collapsed {
+
+    width: 72px;
+
+}
+
+mat-nav-list {
+
+    padding-top: 15px;
+
+}
+
+a {
+
+    color: white !important;
+
+    height: 54px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    border-radius: 8px;
+
+    margin: 5px 10px;
+
+}
+
+a:hover {
+
+    background: #1E293B;
+
+}
+
+.active {
+
+    background: #2563EB;
+
+}
+
+mat-icon {
+
+    color: white;
+
+}
+
+span {
+
+    font-size: 15px;
+
+    font-weight: 500;
+
+}

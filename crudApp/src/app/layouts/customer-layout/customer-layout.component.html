@@ -1,1 +1,19 @@
-<p>customer-layout works!</p>
+<div class="layout">
+
+    <app-header></app-header>
+
+    <div class="main-container">
+
+        <app-sidebar></app-sidebar>
+
+        <main class="content" [style.marginLeft.px]="sidebarWidth()">
+
+            <router-outlet></router-outlet>
+
+        </main>
+
+    </div>
+
+    <app-footer></app-footer>
+
+</div>

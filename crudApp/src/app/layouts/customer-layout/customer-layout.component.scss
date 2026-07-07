@@ -1,0 +1,35 @@
+.layout {
+
+    display: flex;
+
+    flex-direction: column;
+
+    height: 100vh;
+
+}
+
+.main-container {
+
+    flex: 1;
+
+    display: flex;
+
+    overflow: hidden;
+
+    position: relative;
+
+}
+
+.content {
+
+    flex: 1;
+
+    background: #F5F7FA;
+
+    overflow: auto;
+
+    padding: 24px;
+
+    transition: margin-left .25s ease;
+
+}
