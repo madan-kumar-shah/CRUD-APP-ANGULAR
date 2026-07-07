@@ -12,18 +12,17 @@ import { AuthService } from '../../core/services/auth.service';
 import { CUSTOMER_MENU , ADMIN_MENU} from '../../core/constants/navigation';
 
 @Component({
-  selector: 'app-sidebar',
-  standalone: true,
-  imports: [
-    CommonModule,
-    RouterModule,
-    MatIconModule,
-    MatListModule,
-    MatButtonModule,
-    MatExpansionModule
-  ],
-  templateUrl: './sidebar.component.html',
-  styleUrls: ['./sidebar.component.scss']
+    selector: 'app-sidebar',
+    imports: [
+        CommonModule,
+        RouterModule,
+        MatIconModule,
+        MatListModule,
+        MatButtonModule,
+        MatExpansionModule
+    ],
+    templateUrl: './sidebar.component.html',
+    styleUrls: ['./sidebar.component.scss']
 })
 export class SidebarComponent {
 

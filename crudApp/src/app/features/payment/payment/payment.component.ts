@@ -2,11 +2,10 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-payment',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './payment.component.html',
-  styleUrls: ['./payment.component.scss']
+    selector: 'app-payment',
+    imports: [CommonModule],
+    templateUrl: './payment.component.html',
+    styleUrls: ['./payment.component.scss']
 })
 export class PaymentComponent {
 

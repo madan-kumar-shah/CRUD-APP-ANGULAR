@@ -12,21 +12,20 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { LayoutStateService } from '../../core/services/layout-state.service';
 
 @Component({
-  selector: 'app-header',
-  standalone: true,
-  imports: [
-    CommonModule,
-    RouterModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatIconModule,
-    MatBadgeModule,
-    MatMenuModule,
-    MatInputModule,
-    MatFormFieldModule
-  ],
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+    selector: 'app-header',
+    imports: [
+        CommonModule,
+        RouterModule,
+        MatToolbarModule,
+        MatButtonModule,
+        MatIconModule,
+        MatBadgeModule,
+        MatMenuModule,
+        MatInputModule,
+        MatFormFieldModule
+    ],
+    templateUrl: './header.component.html',
+    styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
 
